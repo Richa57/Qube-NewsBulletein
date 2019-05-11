@@ -1,0 +1,41 @@
+.headlineBox {
+    border-radius: 25px;
+    border: 2px solid rgba(29, 204, 248, 0.925);
+    padding: 2%; 
+    width: 35%;
+    float: left;
+    height: auto;
+    text-align: center;
+    margin-top:1%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    font-size: calc(20px + 1.5vmin);
+    color:orangered;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .insideBox{
+    color:black;
+    font-size: calc(10px + 1.5vmin);
+    background-color: azure;
+    opacity:0.5;
+    border-radius: 25px;
+    border: 2px solid rgba(29, 204, 248, 0.925);
+    padding: 2%;
+    margin-top: 10px;
+    width: 93%;
+    height: 80%;
+  }
+
+  .countryDropdown{
+    margin-right: 2%;
+    background-color: white;
+    opacity:0.8;
+  }
+
+  .dropdownDiv{
+    float: right;
+    width:23%;
+    margin-right:2%;
+  }
+  

@@ -1,0 +1,65 @@
+.searchDropdown{
+    margin-right: 2%;
+    background-color: white;
+    opacity:0.8;
+  }
+
+  .searchDropdownDiv{
+    width:23%;
+    margin-right:2%;
+  }
+
+  .selectDiv{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .searchDataDiv{
+    height:30vh;
+    margin:3%;
+  }
+
+  .imgDiv{
+    height:10%;
+    float:left;
+    width:30%;
+  }
+
+  .imgStyle{
+    width:20vw;
+    height:30vh;
+  }
+
+  .pDiv{
+    height: 10%;
+    float: right;
+    width: 60%;
+  }
+
+  .pStyle{
+    width: 100%;
+    margin-top: 5%;
+    font-weight: bold;
+  }
+
+  .btnStyle{
+    background-color: rgb(179, 120, 43);
+    border: 2px solid rgb(179, 120, 43);
+    border-radius: 8px;
+    color: black;
+    padding: 9px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .btnStyle:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+  .btnDiv{
+      margin-right: 1%;
+  }
