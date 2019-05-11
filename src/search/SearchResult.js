@@ -36,7 +36,7 @@ class SearchResult extends Component{
         this.getNewsFromFilter = this.getNewsFromFilter.bind(this);
         this.onButtonClick = this.onButtonClick.bind(this);
     }
-    ComponentWillUnmount(){
+    componentWillUnmount(){
       query='';
     }
     onCountChange(e){
