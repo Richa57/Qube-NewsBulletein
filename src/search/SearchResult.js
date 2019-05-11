@@ -36,9 +36,12 @@ class SearchResult extends Component{
         this.getNewsFromFilter = this.getNewsFromFilter.bind(this);
         this.onButtonClick = this.onButtonClick.bind(this);
     }
+  
     componentWillUnmount(){
-      query='';
+        query='';
+        tempData=[];
     }
+  
     onCountChange(e){
         countryName= e.value;
         this.getNewsFromFilter();
